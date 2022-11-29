@@ -10,7 +10,7 @@ const WeatherCard = ({ weather, temp }) => {
     console.log(temp)
     return (
         
-        <article className='card'>
+        <article className='card '>
             <header className='card__header'>
             <h1 className='card__title'>Weather App</h1>
             <h2 className='card__subtitle'><i class='bx bx-map icon'></i> {weather?.name}, {weather?.sys.country}</h2>
