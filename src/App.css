@@ -5,7 +5,7 @@
   align-items: center;
   min-height: 100vh;
   width: 100%;
-  background-image: linear-gradient(to right top, #111111, #17181c, #1b1f26, #1c2631, #1b2e3b, #1c3a4a, #1a465a, #145369, #126683, #0e7a9f, #098ebb, #07a2d9);
+  background-image: url(/images/sky.jpg);
   background-position: center;
 background-repeat: no repeat;
 background-size: cover;
@@ -21,7 +21,8 @@ background-size: cover;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   box-shadow: -4px -5px 31px -15px rgba(38,38,38,1);
-  z-index: 2;
+  
+  backdrop-filter: blur(5px);
 
 }
 
@@ -101,9 +102,9 @@ font-weight: 200;
 }
 
 .card__btn:hover {
-  color: grey;
+  color: #afb3b9;
 font-weight: 200;
-  border-color: gray;
+  border-color: #afb3b9;
 
 }
 
@@ -114,13 +115,11 @@ font-weight: 200;
 
 
 
-@media screen and (max-width: 600px) {
-  #title_message {
-    visibility: hidden;
-    clear: both;
-    float: left;
-    margin: 10px auto 5px 20px;
-    width: 28%;
-    display: none;
-  }
+.card__icon-container {
+  animation: vibrate 0.5s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
 }
+
+

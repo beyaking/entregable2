@@ -15,7 +15,7 @@ const WeatherCard = ({ weather, temp }) => {
             <h1 className='card__title'>Weather App</h1>
             <h2 className='card__subtitle'><i class='bx bx-map icon'></i> {weather?.name}, {weather?.sys.country}</h2>
             </header>
-            <section className='card__icon-container'>
+            <section className='card__icon-container '>
                 <img src={weather && `http://openweathermap.org/img/wn/${weather?.weather[0].icon}@4x.png
 `} alt="" />
 
