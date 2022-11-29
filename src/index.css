@@ -210,3 +210,11 @@ html, body {
     #foglayer_01, #foglayer_02, #foglayer_03 {
         z-index: 1;
     }
+
+   
+
+    @media screen and (max-width: 1280px) {
+        .cloud {
+            display: none;
+        }
+      }

@@ -47,18 +47,11 @@ if(coords){
   return (
     <div className="App">
 
-<div id="foglayer_01" class="fog">
-  <div className="image01"></div>
-  <div className="image02"></div>
-</div>
-<div id="foglayer_02" class="fog">
-  <div className="image01"></div>
-  <div className="image02"></div>
-</div>
-<div id="foglayer_03" class="fog">
-  <div className="image01"></div>
-  <div className="image02"></div>
-</div>
+     
+
+
+
+
 
 
       <WeatherCard weather={weather}
